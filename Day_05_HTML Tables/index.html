@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Day 04 - HTML Tables</title>
+</head>
+
+<body>
+
+    <!-- ==========================================================
+         Day 04 - HTML Tables
+         Author : Rizwan Akbar
+         Journey: 365 Days of Web Development
+
+         Concepts Covered
+         ----------------
+         1. table
+         2. tr
+         3. th
+         4. td
+         5. border
+         6. colspan
+         7. rowspan
+         8. align
+         9. width
+         ========================================================== -->
+
+    <h1 align="center">HTML Tables Practice</h1>
+
+    <hr>
+
+    <h2>Student Information</h2>
+
+    <table border="1" width="700">
+
+        <tr>
+            <th>ID</th>
+            <th>Name</th>
+            <th>Department</th>
+            <th>Semester</th>
+        </tr>
+
+        <tr align="center">
+            <td>01</td>
+            <td>Rizwan Akbar</td>
+            <td>Software Engineering</td>
+            <td>4th</td>
+        </tr>
+
+        <tr align="center">
+            <td>02</td>
+            <td>Ali Khan</td>
+            <td>Computer Science</td>
+            <td>3rd</td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <!-- ==========================================================
+         Example of Colspan
+         ========================================================== -->
+
+    <h2>Example of Colspan</h2>
+
+    <table border="1" width="500">
+
+        <tr>
+            <th colspan="3">
+                Student Result
+            </th>
+        </tr>
+
+        <tr>
+            <th>Name</th>
+            <th>Subject</th>
+            <th>Marks</th>
+        </tr>
+
+        <tr align="center">
+            <td>Rizwan</td>
+            <td>HTML</td>
+            <td>95</td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <!-- ==========================================================
+         Example of Rowspan
+         ========================================================== -->
+
+    <h2>Example of Rowspan</h2>
+
+    <table border="1" width="500">
+
+        <tr>
+            <th>Country</th>
+            <th>City</th>
+        </tr>
+
+        <tr>
+            <td rowspan="2" align="center">
+                Pakistan
+            </td>
+
+            <td>Lahore</td>
+        </tr>
+
+        <tr>
+            <td>Karachi</td>
+        </tr>
+
+    </table>
+
+    <br>
+
+    <!-- ==========================================================
+         Example of Image and Text Layout
+         (Only for learning purpose)
+         ========================================================== -->
+
+    <h2>Simple CV Layout</h2>
+
+    <table border="1" width="700">
+
+        <tr>
+
+            <td width="200" align="center">
+
+                <img src = "Images/profile.jpeg" width="200" height="200" alt = "profile iamge"/>
+
+            </td>
+
+            <td>
+
+                <h2>Rizwan Akbar</h2>
+
+                <p>Software Engineering Student</p>
+
+                <p>Future Full Stack Web Developer</p>
+
+            </td>
+
+        </tr>
+
+    </table>
+
+</body>
+
+</html>
