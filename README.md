@@ -18,3 +18,18 @@ In this repository, I document my daily progress as I learn modern web developme
 | Day | Project | Status |
 |-----|---------|--------|
 | 01 | Movie Ranking | ✅ Completed |
+## Day 05 - HTML Resume Practice & Revision
+
+| Day | Project | Status |
+|-----|---------|--------|
+| 05 | HTML Resume (In Progress) | 🚧 In Progress |
+
+### What I Did Today
+- Revised HTML basics
+- Continued working on my HTML Resume
+- Practiced previous HTML concepts
+- Prepared for university exams
+
+### Next Goal
+- Complete the HTML Resume
+- Upload the project source code
