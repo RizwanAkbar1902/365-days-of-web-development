@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Font Sizes & Colors Demo</title>
+  
+  <!-- Internal CSS Target Section -->
+  <style>
+    /* Root HTML size set kiya hai taake rem exact work kare */
+    html {
+      font-size: 16px;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    body {
+      background-color: #f4f6f9;
+      color: #333333; /* Dark gray for main text */
+      padding: 20px;
+    }
+
+    /* Main Heading: rem unit aur HEX color code */
+    .main-title {
+      font-size: 2.5rem; /* 2.5 x 16px = 40px */
+      color: #1a73e8; /* Hex code: Professional Blue */
+      text-align: center;
+    }
+
+    /* Parent Box for EM testing */
+    .card {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 8px;
+      font-size: 18px; /* Parent font size */
+    }
+
+    /* Subheading using HSL Color */
+    .sub-heading {
+      font-size: 1.5rem; /* 24px */
+      color: hsl(145, 63%, 32%); /* Green color */
+    }
+
+    /* Text using EM unit (Parent .card par depend karega: 1.2 x 18px = 21.6px) */
+    .em-text {
+      font-size: 1.2em;
+      color: rgb(220, 53, 69); /* RGB: Red accent */
+      font-weight: bold;
+    }
+
+    /* Standard paragraph with PX unit and direct color name */
+    .small-note {
+      font-size: 14px;
+      color: gray; /* Simple color keyword */
+      font-style: italic;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 class="main-title">Font Styling Practice</h1>
+
+  <div class="card">
+    <h2 class="sub-heading">1. HSL Color & REM Size</h2>
+    
+    <p class="em-text">
+      2. Yeh text 1.2em hai! (Iska size parent div ke 18px par dependent hai).
+    </p>
+
+    <p class="small-note">
+      3. Yeh text 14px ka hai aur simple gray color me hai.
+    </p>
+  </div>
+
+</body>
+</html>
