@@ -1,0 +1,27 @@
+body {
+  font-family: sans-serif;
+  background-color: #1e1e2e;
+  color: #fff;
+  padding: 20px;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: auto 300px auto;
+  gap: 15px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.box {
+  background-color: #313244;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.header { grid-column: 1 / -1; }
+.sidebar { grid-column: 1 / 2; }
+.main { grid-column: 2 / 3; }
+.footer { grid-column: 1 / -1; }
