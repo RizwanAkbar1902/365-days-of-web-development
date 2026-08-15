@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Flexbox vs CSS Grid Quick Guide</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: system-ui, -apple-system, sans-serif;
+    }
+    body {
+      background: #0f172a;
+      color: #f8fafc;
+      padding: 2rem;
+      line-height: 1.6;
+    }
+    .wrapper {
+      max-width: 900px;
+      margin: 0 auto;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 0.5rem;
+      color: #38bdf8;
+    }
+    p.subtitle {
+      text-align: center;
+      margin-bottom: 2rem;
+      color: #94a3b8;
+    }
+    .grid-layout {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.5rem;
+    }
+    .card {
+      background: #1e293b;
+      padding: 1.5rem;
+      border-radius: 12px;
+      border: 1px solid #334155;
+    }
+    .card h2 {
+      margin-bottom: 1rem;
+      font-size: 1.25rem;
+      border-bottom: 2px solid #38bdf8;
+      padding-bottom: 0.5rem;
+    }
+    .demo-box {
+      background: #0f172a;
+      padding: 1rem;
+      border-radius: 8px;
+      margin: 1rem 0;
+    }
+    /* Flex Demo */
+    .flex-demo {
+      display: flex;
+      gap: 10px;
+      justify-content: space-between;
+    }
+    .flex-demo .item {
+      background: #3b82f6;
+      padding: 10px 15px;
+      border-radius: 6px;
+      text-align: center;
+      flex: 1;
+    }
+    /* Grid Demo */
+    .grid-demo {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 10px;
+    }
+    .grid-demo .item {
+      background: #10b981;
+      padding: 10px 15px;
+      border-radius: 6px;
+      text-align: center;
+    }
+    .span-item {
+      grid-column: span 3;
+      background: #059669 !important;
+    }
+    ul {
+      margin-left: 1.2rem;
+      color: #cbd5e1;
+      font-size: 0.95rem;
+    }
+    li {
+      margin-bottom: 0.4rem;
+    }
+  </style>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>CSS Layout Systems: Flexbox vs Grid</h1>
+    <p class="subtitle">Quick visual reference for core 1D and 2D alignment mechanics.</p>
+
+    <div class="grid-layout">
+      <!-- Flexbox Section -->
+      <section class="card">
+        <h2>1. Flexbox (1-Dimensional)</h2>
+        <p>Ideal for components, toolbars, and row/column content distribution.</p>
+        <div class="demo-box flex-demo">
+          <div class="item">Flex 1</div>
+          <div class="item">Flex 2</div>
+          <div class="item">Flex 3</div>
+        </div>
+        <ul>
+          <li><code>display: flex</code></li>
+          <li><code>justify-content</code>: Main-axis alignment</li>
+          <li><code>align-items</code>: Cross-axis alignment</li>
+          <li><code>gap</code>: Spacing between flex items</li>
+        </ul>
+      </section>
+
+      <!-- CSS Grid Section -->
+      <section class="card">
+        <h2>2. CSS Grid (2-Dimensional)</h2>
+        <p>Ideal for page layouts, galleries, and full viewport structuring.</p>
+        <div class="demo-box grid-demo">
+          <div class="item">Col 1</div>
+          <div class="item">Col 2</div>
+          <div class="item">Col 3</div>
+          <div class="item span-item">Span Across 3 Columns</div>
+        </div>
+        <ul>
+          <li><code>display: grid</code></li>
+          <li><code>grid-template-columns</code>: Columns definition</li>
+          <li><code>grid-column: span X</code>: Item expansion</li>
+          <li><code>minmax() & auto-fit</code>: Fluid responsiveness</li>
+        </ul>
+      </section>
+    </div>
+  </div>
+</body>
+</html>
