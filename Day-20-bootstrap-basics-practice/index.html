@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bootstrap 5 Grid & Cards Practice</title>
+  <!-- Bootstrap 5 CDN Link -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body class="bg-light py-5">
+
+  <div class="container">
+    <!-- Header Section -->
+    <div class="text-center mb-5">
+      <h1 class="fw-bold">Bootstrap 12-Column Grid & Cards</h1>
+      <p class="text-secondary">Testing responsive columns (`col-12`, `col-md-4`) and basic card components.</p>
+    </div>
+
+    <!-- 12-Column Grid Row -->
+    <div class="row g-4">
+      
+      <!-- Card 1 (Takes 12 columns on mobile, 4 columns on desktop) -->
+      <div class="col-12 col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Starter Plan</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Free Tier</h6>
+            <p class="card-text flex-grow-1">A basic tier for beginners exploring responsive layouts and Bootstrap utilities.</p>
+            <a href="#" class="btn btn-outline-primary mt-3">Get Started</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 (Takes 12 columns on mobile, 4 columns on desktop) -->
+      <div class="col-12 col-md-4">
+        <div class="card h-100 shadow-sm border-primary">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-primary">Pro Plan</h5>
+            <h6 class="card-subtitle mb-2 text-muted">Most Popular</h6>
+            <p class="card-text flex-grow-1">Advanced grid handling with nested rows, flex alignment, and custom spacing.</p>
+            <a href="#" class="btn btn-primary mt-3">Choose Pro</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 (Takes 12 columns on mobile, 4 columns on desktop) -->
+      <div class="col-12 col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title">Enterprise Plan</h5>
+            <h6 class="card-subtitle mb-2 text-muted">For Teams</h6>
+            <p class="card-text flex-grow-1">Full-scale component integration using pure Bootstrap 5 utilities and clean markup.</p>
+            <a href="#" class="btn btn-outline-primary mt-3">Contact Us</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- Bootstrap JS Bundle CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
