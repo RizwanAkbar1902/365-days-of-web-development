@@ -33,3 +33,7 @@ In this repository, I document my daily progress as I learn modern web developme
 ### Next Goal
 - Complete the HTML Resume
 - Upload the project source code
+---
+### Daily Progress Log (August 18, 2026)
+- Reviewed Flexbox and Grid core layout mechanics.
+- Prepared repository setup for upcoming Bootstrap component practice.
