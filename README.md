@@ -53,3 +53,18 @@ Building a responsive multi-section landing page using Bootstrap 5 layout utilit
 - Semantic HTML5
 - Bootstrap 5.3 (CDN)
 - Custom CSS
+# Personal Portfolio Website (WIP)
+
+A responsive developer portfolio built to showcase frontend projects, technical skills, and practical development milestones.
+
+### Current Implementation Status:
+- [x] Base HTML5 boilerplate and semantic page layout setup.
+- [x] Responsive Navigation / Header bar.
+- [x] Hero section introducing developer role and core focus areas.
+- [ ] Featured Projects Showcase (In Progress).
+- [ ] Skills & Tools grid section (Pending).
+- [ ] Contact form / Footer social links (Pending).
+
+### Tech Stack:
+- HTML5
+- CSS3 / Bootstrap 5 (Flexbox & Grid Layouts)
