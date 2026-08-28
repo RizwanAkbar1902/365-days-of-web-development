@@ -68,3 +68,26 @@ A responsive developer portfolio built to showcase frontend projects, technical 
 ### Tech Stack:
 - HTML5
 - CSS3 / Bootstrap 5 (Flexbox & Grid Layouts)
+
+# Personal Developer Portfolio
+
+A responsive, modern developer portfolio website designed to showcase frontend projects, core technical proficiencies, and ongoing software development milestones.
+
+## Overview
+This portfolio serves as a central hub for my work, featuring real-world web development projects, responsive design experiments, and technical background. Built with clean semantic structure, custom styling, and mobile-first responsiveness.
+
+## Key Sections & Features
+* **Hero Banner:** Introduction highlighting core focus areas, active learning tracks, and quick call-to-action buttons.
+* **About / Background:** Concise professional bio covering software engineering studies and technical interests.
+* **Project Showcase:** Interactive project cards detailing live demos, source repositories, and technologies used (HTML5, CSS3, Flexbox/Grid, Bootstrap 5, Python).
+* **Skills & Toolkit:** Visual layout of languages, frameworks, and version control tools.
+* **Contact & Links:** Integrated communication channels and social links (GitHub, LinkedIn, Email).
+
+## Tech Stack
+* **Markup & Structure:** Semantic HTML5
+* **Styling & Layout:** Modern CSS3, Flexbox, CSS Grid, Bootstrap 5
+* **Icons & Assets:** SVG vectors and responsive media queries
+* **Version Control:** Git & GitHub
+
+## Status
+* **Current Phase:** Final UI/UX refinement, cross-browser testing, and asset optimization (~85-90% complete).
