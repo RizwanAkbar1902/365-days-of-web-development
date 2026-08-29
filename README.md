@@ -1,93 +1,60 @@
-# 365 Days of Web Development
+# 🌐 365 Days of Web Development
 
-Welcome to my 365 Days of Web Development journey.
+Welcome to my **365 Days of Web Development** journey. This repository documents my daily coding consistency, hands-on practice, and project milestones as I build modern, responsive web applications from scratch.
 
-In this repository, I document my daily progress as I learn modern web development by building projects and practising consistently.
-
-## Goals
-
-- Learn HTML
-- Learn CSS
-- Learn JavaScript
-- Learn React
-- Build real-world projects
-- Stay consistent for 365 days
-
-## Progress
-
-| Day | Project | Status |
-|-----|---------|--------|
-| 01 | Movie Ranking | ✅ Completed |
-## Day 05 - HTML Resume Practice & Revision
-
-| Day | Project | Status |
-|-----|---------|--------|
-| 05 | HTML Resume (In Progress) | 🚧 In Progress |
-
-### What I Did Today
-- Revised HTML basics
-- Continued working on my HTML Resume
-- Practiced previous HTML concepts
-- Prepared for university exams
-
-### Next Goal
-- Complete the HTML Resume
-- Upload the project source code
 ---
-### Daily Progress Log (August 18, 2026)
-- Reviewed Flexbox and Grid core layout mechanics.
-- Prepared repository setup for upcoming Bootstrap component practice.
 
-# Bootstrap 5 Landing Page (In Progress)
+## 🎯 Core Roadmap & Goals
 
-Building a responsive multi-section landing page using Bootstrap 5 layout utilities and components.
+- [x] **Phase 1:** Core HTML5 (Structure, Tables, Forms, Semantic Elements)
+- [x] **Phase 2:** Modern CSS3 (Box Model, Selectors, Media Queries, Float & Clear)
+- [x] **Phase 3:** Advanced Layouts (Flexbox & CSS Grid Systems)
+- [x] **Phase 4:** Responsive Frameworks (Bootstrap 5 Components & Layouts)
+- [ ] **Phase 5:** JavaScript (DOM Manipulation, ES6+, Async JS & APIs)
+- [ ] **Phase 6:** React.js & Full-Stack Integration
 
-### Current Progress (Day 1 - ~50%):
-- [x] Responsive navigation bar with mobile toggler.
-- [x] Hero section with call-to-action buttons and layout structure.
-- [x] Grid structure setup for feature highlights.
-- [ ] Testimonials / Pricing section (Pending).
-- [ ] Multi-column footer and final responsiveness fine-tuning (Pending).
+---
 
-### Tech Stack:
-- Semantic HTML5
-- Bootstrap 5.3 (CDN)
-- Custom CSS
-# Personal Portfolio Website (WIP)
+## 📊 Daily Progress Tracker
 
-A responsive developer portfolio built to showcase frontend projects, technical skills, and practical development milestones.
+| Day | Project / Topic | Key Concepts Covered | Status |
+|:---:|:---|:---|:---:|
+| **01** | [Movie Ranking](./Day-01-Movie-Ranking) | HTML Headings, Paragraphs, Lists & Structure | ✅ Completed |
+| **02** | [Birthday Invite](./Day-02-Birthday-Invite) | HTML Formatting, Links, Images & Maps Embed | ✅ Completed |
+| **03** | [Portfolio Project](./Day-03-Portfolio-Project) | Multi-page HTML linking & basic site hierarchy | ✅ Completed |
+| **04** | [GitHub Pages](./Day-04-GitHub-pages) | Git setup, deployment & static hosting | ✅ Completed |
+| **05** | [HTML Tables](./Day-05-HTML%20Tables) | `table`, `tr`, `th`, `td`, `colspan` & `rowspan` | ✅ Completed |
+| **06** | [Intro to CSS](./Day-06-Introduction_TO_CSS) | Inline, Internal, External CSS & Basic Selectors | ✅ Completed |
+| **07** | [HTML Resume](./Day-07-HTML_Resume) | Semantic Markup, Academic Table Layouts & CV Structure | ✅ Completed |
+| **08** | [CSS Selectors Practice](./Day-08-CSS_Selectors_practice) | Class, ID, Attribute, Child & Pseudo Selectors | ✅ Completed |
+| **09** | [Font Sizes & Colors](./Day-09-CSS-Font-Sizes-and-Colors) | Typography, `px`, `rem`, `em`, HEX, RGB & HSL | ✅ Completed |
+| **10** | [Motivational Poster](./Day-10-A-Motivational-Poster) | CSS Box Model, Borders, Padding, Margin & Fonts | ✅ Completed |
+| **11** | [CSS Flag Project](./Day-11-CSS_Flag_Project) | Complex `div` positioning & border styling | ✅ Completed |
+| **12** | [Float & Clear Practice](./Day-12-%20Practice%20CSS%20float%20and%20clear%20pro) | Legacy layout structure, `float`, and `clear` fixes | ✅ Completed |
+| **13** | [MediaQuery Project](./Day-13-MediaQuery%20project) | Mobile-first responsive design & viewport breakpoints | ✅ Completed |
+| **14** | [Flexbox Basics](./Day-14-Flex-Box%20Basics) | `flex-direction`, `justify-content`, `align-items` | ✅ Completed |
+| **15** | [Flexbox Project](./Day-15-Flex%20Box%20Project) | Dynamic component alignment & responsive card grids | ✅ Completed |
+| **16** | [CSS Grid Basics](./Day-16-Grid) | `grid-template-columns`, `grid-template-rows`, `gap` | ✅ Completed |
+| **17** | [Grid Project](./Day-17-Grid%20project) | Two-dimensional responsive web layouts | ✅ Completed |
+| **18** | [Bootstrap Setup](./Day-18-Bootstrap) | Bootstrap CDN integration & utility classes | ✅ Completed |
+| **19** | [CSS Layout Cheatsheet](./Day-19-css-layout-cheatsheet) | Flexbox vs Grid alignment reference notes | ✅ Completed |
+| **20** | [Bootstrap Basics Practice](./Day-20-bootstrap-basics-practice) | Spacing utilities, typography & responsive colors | ✅ Completed |
+| **21** | [Bootstrap Grid Exercise](./Day-21-bootstrap-grid-exercise) | 12-column system breakpoints (`col-xxl`, `col-md`, etc.) | ✅ Completed |
+| **22** | [Child Card](./Day-22-Child-Card) | Milestone card built with Bootstrap components | ✅ Completed |
+| **23** | [Bootstrap Elements](./Day-23-Boot-Strap%20Elements) | Navbars, Hero banners, Carousels & Multi-column Footers | ✅ Completed |
 
-### Current Implementation Status:
-- [x] Base HTML5 boilerplate and semantic page layout setup.
-- [x] Responsive Navigation / Header bar.
-- [x] Hero section introducing developer role and core focus areas.
-- [ ] Featured Projects Showcase (In Progress).
-- [ ] Skills & Tools grid section (Pending).
-- [ ] Contact form / Footer social links (Pending).
+---
 
-### Tech Stack:
-- HTML5
-- CSS3 / Bootstrap 5 (Flexbox & Grid Layouts)
+## 🛠️ Tech Stack & Tools
 
-# Personal Developer Portfolio
+* **Languages & Markup:** HTML5, CSS3
+* **Frameworks & Layouts:** Flexbox, CSS Grid, Bootstrap 5.3
+* **Tools & Workflow:** Git, GitHub, VS Code, Live Server
 
-A responsive, modern developer portfolio website designed to showcase frontend projects, core technical proficiencies, and ongoing software development milestones.
+---
 
-## Overview
-This portfolio serves as a central hub for my work, featuring real-world web development projects, responsive design experiments, and technical background. Built with clean semantic structure, custom styling, and mobile-first responsiveness.
+## 🚀 How to Run Any Project
 
-## Key Sections & Features
-* **Hero Banner:** Introduction highlighting core focus areas, active learning tracks, and quick call-to-action buttons.
-* **About / Background:** Concise professional bio covering software engineering studies and technical interests.
-* **Project Showcase:** Interactive project cards detailing live demos, source repositories, and technologies used (HTML5, CSS3, Flexbox/Grid, Bootstrap 5, Python).
-* **Skills & Toolkit:** Visual layout of languages, frameworks, and version control tools.
-* **Contact & Links:** Integrated communication channels and social links (GitHub, LinkedIn, Email).
-
-## Tech Stack
-* **Markup & Structure:** Semantic HTML5
-* **Styling & Layout:** Modern CSS3, Flexbox, CSS Grid, Bootstrap 5
-* **Icons & Assets:** SVG vectors and responsive media queries
-* **Version Control:** Git & GitHub
-
-## Status
-* **Current Phase:** Final UI/UX refinement, cross-browser testing, and asset optimization (~85-90% complete).
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/your-username/365-days-web.git](https://github.com/your-username/365-days-web.git)
