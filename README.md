@@ -58,3 +58,27 @@ Welcome to my **365 Days of Web Development** journey. This repository documents
 1. Clone the repository:
    ```bash
    git clone [https://github.com/your-username/365-days-web.git](https://github.com/your-username/365-days-web.git)
+   # Modern Responsive Website (In Progress)
+
+A fully responsive, modern website layout built with semantic markup and responsive CSS/Bootstrap utilities.
+
+## Overview
+This project focuses on crafting a clean, mobile-first web interface with fluid layouts, structured navigation, and adaptive UI components across all screen sizes.
+
+## Current Progress (Day 1 - Foundation Setup)
+- [x] Initialized semantic HTML5 boilerplate and directory architecture.
+- [x] Configured responsive meta tags and viewport scaling.
+- [x] Implemented responsive navigation bar with mobile toggle support.
+- [x] Structured hero section with primary typography and CTA buttons.
+- [ ] Feature / Content grid integration (In Progress).
+- [ ] Testimonials / Showcase cards (Pending).
+- [ ] Multi-column footer and accessibility checks (Pending).
+
+## Tech Stack
+* **Markup:** Semantic HTML5
+* **Styling & Layout:** Modern CSS3, Flexbox, Media Queries (or Bootstrap 5)
+* **Design Philosophy:** Mobile-First, Responsive Design
+
+## Next Steps
+- Finalize the layout grid for middle sections.
+- Fine-tune breakpoint spacing and cross-browser responsiveness.
