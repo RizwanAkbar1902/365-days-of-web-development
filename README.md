@@ -10,8 +10,9 @@ Welcome to my **365 Days of Web Development** journey. This repository documents
 - [x] **Phase 2:** Modern CSS3 (Box Model, Selectors, Media Queries, Float & Clear)
 - [x] **Phase 3:** Advanced Layouts (Flexbox & CSS Grid Systems)
 - [x] **Phase 4:** Responsive Frameworks (Bootstrap 5 Components & Layouts)
-- [ ] **Phase 5:** JavaScript (DOM Manipulation, ES6+, Async JS & APIs)
-- [ ] **Phase 6:** React.js & Full-Stack Integration
+- [x] **Phase 5:** UI/UX Fundamentals & Responsive Portfolio Milestone
+- [ ] **Phase 6:** JavaScript (DOM Manipulation, ES6+, Async JS & APIs)
+- [ ] **Phase 7:** React.js & Full-Stack Integration
 
 ---
 
@@ -42,6 +43,8 @@ Welcome to my **365 Days of Web Development** journey. This repository documents
 | **21** | [Bootstrap Grid Exercise](./Day-21-bootstrap-grid-exercise) | 12-column system breakpoints (`col-xxl`, `col-md`, etc.) | ✅ Completed |
 | **22** | [Child Card](./Day-22-Child-Card) | Milestone card built with Bootstrap components | ✅ Completed |
 | **23** | [Bootstrap Elements](./Day-23-Boot-Strap%20Elements) | Navbars, Hero banners, Carousels & Multi-column Footers | ✅ Completed |
+| **24** | [UI Design Fundamentals](./Day-24-UI-Design) | UI design principles, visual hierarchy, layout, typography, colors & spacing | ✅ Completed |
+| **25** | [Personal Portfolio V1](./Day-25-Personal-Portfolio) | Responsive layout, Hero, Skills progress bars, Project cards & Contact form | ✅ Completed |
 
 ---
 
@@ -58,27 +61,3 @@ Welcome to my **365 Days of Web Development** journey. This repository documents
 1. Clone the repository:
    ```bash
    git clone [https://github.com/your-username/365-days-web.git](https://github.com/your-username/365-days-web.git)
-   # Modern Responsive Website (In Progress)
-
-A fully responsive, modern website layout built with semantic markup and responsive CSS/Bootstrap utilities.
-
-## Overview
-This project focuses on crafting a clean, mobile-first web interface with fluid layouts, structured navigation, and adaptive UI components across all screen sizes.
-
-## Current Progress (Day 1 - Foundation Setup)
-- [x] Initialized semantic HTML5 boilerplate and directory architecture.
-- [x] Configured responsive meta tags and viewport scaling.
-- [x] Implemented responsive navigation bar with mobile toggle support.
-- [x] Structured hero section with primary typography and CTA buttons.
-- [ ] Feature / Content grid integration (In Progress).
-- [ ] Testimonials / Showcase cards (Pending).
-- [ ] Multi-column footer and accessibility checks (Pending).
-
-## Tech Stack
-* **Markup:** Semantic HTML5
-* **Styling & Layout:** Modern CSS3, Flexbox, Media Queries (or Bootstrap 5)
-* **Design Philosophy:** Mobile-First, Responsive Design
-
-## Next Steps
-- Finalize the layout grid for middle sections.
-- Fine-tune breakpoint spacing and cross-browser responsiveness.
